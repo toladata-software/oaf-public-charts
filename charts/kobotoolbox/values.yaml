@@ -201,28 +201,28 @@ smtp:
   # -- SMTP "from" address
   from: ""
 
-global:
-  redis:
-    # -- Redis password
-    password: brFdS9b7Xp
-  # -- Will be used by this and all subcharts
-  storageClass: standard
-
-rediscache:
-  enabled: true
-  usePassword: true
-  cluster:
-    # disable slaves
-    enabled: false
-    slaveCount: 1
-
-redismain:
-  enabled: true
-  usePassword: true
-  cluster:
-    # disable slaves
-    enabled: false
-    slaveCount: 1
+#global:
+#  redis:
+#    # -- Redis password
+#    password: brFdS9b7Xp
+#  # -- Will be used by this and all subcharts
+#  storageClass: standard
+#
+#rediscache:
+#  enabled: true
+#  usePassword: true
+#  cluster:
+#    # disable slaves
+#    enabled: false
+#    slaveCount: 1
+#
+#redismain:
+#  enabled: true
+#  usePassword: true
+#  cluster:
+#    # disable slaves
+#    enabled: false
+#    slaveCount: 1
 
 # -- Standard MongoDB values
 # See https://artifacthub.io/packages/helm/bitnami/mongodb for doc

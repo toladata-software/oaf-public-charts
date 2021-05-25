@@ -13,16 +13,16 @@ maintainers:
   - name: Yann-J
     email: yann.jouanique@gmail.com
 dependencies:
-  - name: redis
-    version: ~10.7.4
-    repository: https://charts.bitnami.com/bitnami
-    condition: redismain.enabled
-    alias: redismain
-  - name: redis
-    version: ~10.7.4
-    repository: https://charts.bitnami.com/bitnami
-    condition: rediscache.enabled
-    alias: rediscache
+#  - name: redis
+#    version: ~10.7.4
+#    repository: https://charts.bitnami.com/bitnami
+#    condition: redismain.enabled
+#    alias: redismain
+#  - name: redis
+#    version: ~10.7.4
+#    repository: https://charts.bitnami.com/bitnami
+#    condition: rediscache.enabled
+#    alias: rediscache
   - name: postgresql
     version: ~10.1.2
     repository: https://charts.bitnami.com/bitnami
